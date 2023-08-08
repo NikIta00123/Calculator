@@ -41,7 +41,7 @@ public class Calculator {
             result = calculated(number1, number2, operation);
             System.out.println("---Результат для римских цифр----");
             String resultRoman = convertNumToNik(result);
-            System.out.println(stable00 + " " + operation + " " + string03 + " = " + resultRoman);
+            System.out.println(stable00 + " " + operation + " " + string03 + " = " + result);
         }
         number1 = Integer.parseInt(stable00);
         number2 = Integer.parseInt(string03);
